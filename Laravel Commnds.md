@@ -16,3 +16,17 @@ php artisan make:model Listing // name at the end
 
 ### Create a factory
 php artisan make:factory ListingFactory // name at the end 
+
+### Create a controller
+php artisan make:controller ListingController
+
+
+## Naming Conventions
+### Common Resource Routes:
+- index - Show all listings
+- show - Show single listing
+- create - Show form to create new listing
+- store - Store new listing 
+- edit - Show form to edit listing
+- update - Update listing
+- destroy - Delete listing
