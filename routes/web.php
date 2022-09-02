@@ -34,9 +34,20 @@ Route::get('/search', function(Request $request){
 // All Listings
 Route::get('/', [ListingController::class, 'index']);
 
-// Single listing
+
+
+
+// Show create form
+Route::get('/listings/create', [ListingController::class, 'create']);
+
+// Store listing data
+Route::post('/listings', [ListingController::class, 'store']);
+
+
+
+
+
 
 // Eloquent model used on ('/listings/{listing}', function(Listing $listing)
+// Single listing
 Route::get('/listings/{listing}', [ListingController::class, 'show']);
-
-
