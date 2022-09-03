@@ -49,10 +49,8 @@ Route::get('/listings/{listing}/edit', [ListingController::class, 'edit']);
 // update listing
 Route::put('/listings/{listing}', [ListingController::class, 'update']);
 
-
-
-
-
+// Delete listing
+Route::delete('/listings/{listing}', [ListingController::class, 'destroy']);
 
 // Eloquent model used on ('/listings/{listing}', function(Listing $listing)
 // Single listing
