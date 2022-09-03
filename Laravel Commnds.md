@@ -33,3 +33,6 @@ php artisan make:controller ListingController
 
 ## Publish packages so you can edit them
 php artisan vendor:publish
+
+## Create a link between public images and stored images so they can be accessed
+php artisan storage:link
