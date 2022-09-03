@@ -30,3 +30,6 @@ php artisan make:controller ListingController
 - edit - Show form to edit listing
 - update - Update listing
 - destroy - Delete listing
+
+## Publish packages so you can edit them
+php artisan vendor:publish
